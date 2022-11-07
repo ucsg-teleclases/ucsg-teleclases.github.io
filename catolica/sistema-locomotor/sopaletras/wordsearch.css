@@ -26,6 +26,7 @@ td.selected{
 ul {
 	column-count: 3;
 	display: block;
+	column-gap: 40px;
 }
 
 div.container {
