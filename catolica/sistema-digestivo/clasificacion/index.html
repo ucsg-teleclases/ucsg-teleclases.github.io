@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Draggable Todo App</title>
+  </head>
+  <body>
+    <!-- modal -->
+    <div class="modal" id="todo_form">
+      <div class="header">
+        <div class="title">Add Todo</div>
+        <button class="btn close-modal">&times;</button>
+      </div>
+      <div class="body">
+        <input type="text" id="todo_input" />
+        <input type="submit" value="Add Todo" id="todo_submit" />
+      </div>
+    </div>
+    <!-- todo -->
+    <div class="todo-container">
+      <div class="status" id="no_status">
+        <h1>ALIMENTOS</h1>
+         <div class="todo" draggable="true">
+          PERA
+          <span class="close">&times;</span>
+        </div>
+		 <div class="todo" draggable="true">
+          PAPAS FRITAS
+          <span class="close">&times;</span>
+        </div>
+		 <div class="todo" draggable="true">
+          MANZANA
+          <span class="close">&times;</span>
+        </div>
+		 <div class="todo" draggable="true">
+          BEDIDAS GASEOSAS Y AZUCARADAS
+          <span class="close">&times;</span>
+        </div>
+		<div class="todo" draggable="true">
+          YOGURT
+          <span class="close">&times;</span>
+        </div>
+		 <div class="todo" draggable="true">
+          DULCES
+          <span class="close">&times;</span>
+        </div>
+		 <div class="todo" draggable="true">
+          ATÚN
+          <span class="close">&times;</span>
+        </div>
+		 <div class="todo" draggable="true">
+          EMBUTIDOS
+          <span class="close">&times;</span>
+        </div>
+      </div>
+      <div class="status">
+        <h1>SALUDABLE</h1>
+      </div>
+      <div class="status">
+        <h1>NO SALUDABLE</h1>
+      </div>
+    </div>
+
+    <div id="overlay"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
