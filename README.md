@@ -1,1 +1,0 @@
-# ucsg-teleclases.github.io
